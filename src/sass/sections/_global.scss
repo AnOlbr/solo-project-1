@@ -1,0 +1,22 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.main-container {
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  max-width: 100%;
+  overflow-y: scroll;
+}
+
+.display-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 0;
+}

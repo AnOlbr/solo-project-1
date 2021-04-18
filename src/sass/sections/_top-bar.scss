@@ -1,0 +1,53 @@
+.top-bar{
+  position: sticky;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  background-color: $container-background-color;
+  margin: 0;
+  align-items: end;
+  max-height: 55px;
+  border-bottom: 1px solid $border-color;
+
+  .top-bar-amount{
+    text-align: center;
+  }
+
+  p{
+    margin-left: 5px;
+    padding: 15px 15px;
+    border-left: solid 1px $border-color;
+    font-size: 18px;
+    font-family: $font;
+    font-weight: medium;
+    color: $navigation-color;
+
+    i{
+      font-size: 18px;
+      padding: 0 15px;
+      color: $main-text-color;
+      font-weight: medium;
+    }
+
+    .click:hover{
+      cursor: pointer;
+    }
+  }
+
+  .top-bar-login{
+    color: $links-color;
+    display: inline-flex;
+    
+    i{
+      align-self: center;
+    }
+  }
+
+  .top-bar-login:hover{
+    cursor: pointer;
+  }
+  
+  .top-bar-amount{
+    font-weight: bolder;
+  }
+}

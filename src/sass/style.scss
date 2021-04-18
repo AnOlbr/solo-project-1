@@ -1,13 +1,5 @@
 @import "variables";
-@import "mixins";
+@import "media";
 @import "normalize";
-@import "layout";
-
-/* Components */
-//@import "components/form_field";
-
-/* Sections */
-//@import "section/registration_form";
-
-/* Pages / Views */
-//@import "pages/registration";
+@import "modals";
+@import "sections";

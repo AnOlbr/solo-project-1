@@ -1,0 +1,27 @@
+.date-picker {
+  margin-bottom: 20px;
+}
+
+.detail-statistic, .payout{
+  width: 90%;
+  margin: 50px auto;
+}
+
+table {
+  width: 90%;
+  max-width: 90%;
+  margin: 10px auto 30px auto;
+  font-family: $font;
+  font-size: 15px;
+
+  tr{
+    th,td{
+      padding: 20px 0;
+    }
+  }
+}
+
+thead{
+  color: $main-text-color;
+  text-align: left;
+}

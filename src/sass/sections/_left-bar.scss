@@ -1,0 +1,104 @@
+body{
+  background-color: $body-color;
+}
+
+.sidebar{
+  display: flex;
+  background-color: $sidebar-background-color;
+  height: 100vh;
+  z-index: 1;
+  top: 0;
+  flex-direction: column;
+  position: sticky;
+
+  div{
+    position: relative;
+  }
+
+  h1{
+    color: $logo-color;
+    font-family: $logo-font;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 20px;
+
+    i{
+      font-size: 25px;
+      margin-left: 50px;
+      color: $body-color;
+      display: none;
+    }
+  }
+
+  .menu{
+    margin: 0;
+    padding-bottom: 10px;
+
+    a{
+      display: block;
+      text-decoration: none;
+      color: $sidebar-text-color;
+      font-family: $font;
+      font-size: 18px;
+      margin: 0 15px 15px 15px;
+      padding: 10px;
+
+      i{
+        color: $sidebar-text-color;
+        font-size: 15px;
+        padding-right: 20px;
+      }
+    }
+
+    a:hover{
+      background-color: $sidebar-hover-background-color;
+      border-left: solid 5px $button-color;
+      color: $sidebar-text-hover-color;
+    }
+
+  }
+}
+
+.messenger {
+  border-top: $message-background-dark-color 1px solid;
+
+  h4{
+    margin-top: 20px;
+    font-family: $font;
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 25px;
+    color: $sidebar-text-color;
+    display: flex;
+    justify-content: center;
+  }
+
+  p{
+    font-family: $font;
+    font-size: 16px;
+    color: $links-color;
+    margin-left: 10px;
+  }
+
+  img{
+    margin-left: 20px;
+  }
+
+  .contact{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    height: 50px;
+
+    p{
+      margin-top: 15px;
+      display: flex;
+      align-items: center;
+      font-size: 20px;
+    }
+
+    .popup:hover{
+      cursor: pointer;
+    }
+  }
+}
