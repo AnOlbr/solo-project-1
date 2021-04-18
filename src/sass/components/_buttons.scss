@@ -1,0 +1,35 @@
+// BUTTONS
+.button {
+  background-color: $button-color;
+  color: $logo-color;
+  border-radius: 5px;
+  width: 12%;
+  margin: 40px auto;
+  text-align: center;
+
+  p{
+    font-family: $font;
+    font-size: 18px;
+    padding: 15px;
+    font-weight: lighter;
+  }
+  
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.button.undo{
+  font-size: 20px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  margin: 0;
+}
+
+button {
+  width: 30%;
+  height: 50px;
+  border: none;
+}

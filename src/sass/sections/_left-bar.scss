@@ -24,9 +24,8 @@ body{
 
     i{
       font-size: 25px;
-      margin-left: 50px;
+      margin-left: 40px;
       color: $body-color;
-      display: none;
     }
   }
 
@@ -67,7 +66,6 @@ body{
     font-family: $font;
     font-size: 18px;
     font-weight: 400;
-    padding-left: 25px;
     color: $sidebar-text-color;
     display: flex;
     justify-content: center;

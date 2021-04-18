@@ -3,6 +3,9 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  color: $main-text-color;
+  font-family: $font;
+  font-weight: 200;
 }
 
 .layout .card-container{
@@ -62,30 +65,5 @@
       padding-right: 0;
       color: $main-text-color;
     }
-  }
-}
-
-.button.undo{
-  font-size: 20px;
-  width: 40px;
-  height: 40px;
-  line-height: 40px;
-  text-align: center;
-  margin: 0;
-}
-
-.button{
-  background-color: $button-color;
-  color: $logo-color;
-  border-radius: 5px;
-  width: 12%;
-  margin: 40px auto;
-  text-align: center;
-
-  p{
-    font-family: $font;
-    font-size: 18px;
-    padding: 15px;
-    font-weight: lighter;
   }
 }
