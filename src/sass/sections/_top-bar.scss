@@ -50,4 +50,14 @@
   .top-bar-amount{
     font-weight: bolder;
   }
+
+  .bell-alert{
+    position: relative;
+  }
+
+  svg circle{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+  }
 }
