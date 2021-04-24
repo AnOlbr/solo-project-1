@@ -25,3 +25,23 @@ thead{
   color: $main-text-color;
   text-align: left;
 }
+
+.pagination{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination a {
+  color: $links-color;
+  padding: 8px 12px;
+  text-decoration: none;
+  transition: background-color .3s;
+}
+
+.pagination a.active {
+  color: $main-text-color
+}
+
+.pagination a:hover:not(.active) {color: $color-sent;}

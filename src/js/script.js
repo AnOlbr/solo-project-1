@@ -92,6 +92,13 @@ document.querySelector('.top-bar-login').addEventListener('click', function (e) 
   }
 });
 
+document.querySelector('.btn-new-banner').addEventListener('click', function (e) {
+  if (e.target === this) {
+    openModal('#myModalBanner');
+  }
+});
+
+
 var ctx = document.getElementById('myChart').getContext('2d');
 var chart = new Chart(ctx, { // eslint-disable-line
   type: 'bar',
@@ -132,3 +139,15 @@ var chart = new Chart(ctx, { // eslint-disable-line
     },
   }
 });
+
+const range = document.getElementById('range'),
+  rangeV = document.getElementById('rangeV'),
+  setValue = ()=>{
+    const
+      newValue = Number( (range.value - range.min) * 100 / (range.max - range.min) ),
+      newPosition = 10 - (newValue * 0.2);
+    rangeV.innerHTML = `<span>${range.value}</span>`;
+    rangeV.style.left = `calc(${newValue}% + (${newPosition}px))`;
+  };
+document.addEventListener('DOMContentLoaded', setValue);
+range.addEventListener('input', setValue);

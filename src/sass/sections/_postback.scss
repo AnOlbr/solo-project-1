@@ -1,0 +1,38 @@
+.postback{
+  width: 100%;
+
+  form {
+    width: 100%;
+    text-align: center;
+  }
+
+  .section{
+    border-bottom: 1px solid $border-color;
+    width: 100%;
+  }
+
+  .form-data{
+    font-family: $font;
+    color: $main-text-color;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    textarea{
+      height: 250px;
+      width: 400px;
+      border-radius: 5px;
+      border: 1px solid $border-color;
+      color: $dark-text-color;
+      outline: none;
+      font-size: 16px;
+      padding: 10px; 
+    }
+  }
+
+  .time-range{
+    margin-top: 30px;
+    justify-content: center;
+    display: flex;
+  }
+}

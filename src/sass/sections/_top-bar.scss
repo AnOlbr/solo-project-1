@@ -51,13 +51,10 @@
     font-weight: bolder;
   }
 
-  .bell-alert{
+  svg{
     position: relative;
-  }
-
-  svg circle{
-    position: absolute;
-    left: 10px;
+    margin-left: -15px;
+    left: -25px;
     top: 10px;
   }
 }
