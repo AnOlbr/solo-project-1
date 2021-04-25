@@ -20,3 +20,13 @@ html {
   flex-direction: column;
   flex: 1 0 0;
 }
+
+.card-container{
+  padding: 20px;
+}
+
+a:hover{
+ text-decoration: none;
+ color: $hover-links-color;
+}
+

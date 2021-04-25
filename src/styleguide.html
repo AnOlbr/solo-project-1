@@ -20,16 +20,34 @@
         <div class="card-container active" id="general">
           <div class="row">
             <div class="col">
-              <h6>TEXTSSSSSS</h6>
+              <h6>TEXTS</h6>
+              <h3>PAGE HEADER</h3><br>
+              <h5>Section header</h5>
+              <p>Text</p>
             </div>
             <div class="col">
               <h6>LINKS</h6>
+              <a href="#">link</a><br>
+              <a href="#" style="color: #FFA200">link hover</a> <!--jak pokazac lapke-->
             </div>
             <div class="col">
-              <h6>COLORS</h6>
+              <h6>COLORS</h6>   <!--jak podzielic na 2 kolumny-->
+              <span style="display: flex;">
+                <div class="col" style="margin: 0px; padding: 0px;">
+                  <p style="margin: 3px; background-color: #1b1b1b; text-align: center; width: 100px;">#1b1b1b</p>
+                  <p style="margin: 3px; background-color: #999999; text-align: center; width: 100px; color: white;">#999999</p>
+                  <p style="margin: 3px; background-color: #e5e5e5; text-align: center; width: 100px; color: black;">#e5e5e5</p>
+                </div>
+                <div class="col" style="margin: 0px; padding: 0px;">
+                  <p style="margin: 3px; background-color: #FFA200; text-align: center; width: 100px; color: black;">#FFA200</p>
+                  <p style="margin: 3px; background-color: #04ae00;; text-align: center; width: 100px; color: white;">#04ae00;</p>
+                  <p style="margin: 3px; background-color: #56819f; text-align: center; width: 100px; color: white;">#56819f;</p>
+                </div>
+              </span>
             </div>
             <div class="col">
               <h6>BUTTONS</h6>
+              <button class="button" style="float: left; width: 100px; margin-top: 10px;";>Button</button>   <!--jak naprawic zeby width bylo zalezne od tekstu-->
             </div>
             <div class="col">
               <h6>CHECKBOX LIST</h6>
@@ -38,42 +56,94 @@
           <div class="row">
             <div class="col">
               <h6>TABLE WITH LINK</h6>
+              <div class="link" style="float: left; margin: 0; width: 550px;">
+                <p>Home page</p>
+                <a href="#">http://www.homepage.com</a>
+                <div class="icons">
+                  <i class="fas fa-link link-icon"></i>   
+                  <i class="fas fa-trash-alt"></i>
+                </div>
+              </div>
             </div>
             <div class="col">
               <h6>INPUTS</h6>
+              <textarea name="post" placeholder="textarea"></textarea> <br>
+              <input type="text" name="user-surname" required placeholder="text input" ><br>
+              <input type="password" name="user-password" required placeholder="password" style="margin: 15px 0;">
             </div>
             <div class="col">
               <h6>DATE PERIOD</h6>
+              <div class="date-picker" style="width: 400px; border-bottom: none;">
+              <div class="date">
+                <p class="date-start">16-05-2020</p>
+                <p class="date-finish">18-05-2020 <i class="icon-details icon"></i></p>
+              </div>
             </div>
-          </div>
-          <div class="row">
             <div class="col">
               <h6>LIST WITH ONE DIGIT</h6>
+                <div class="statistic" style="width: 180px;">
+                    <div class="details" style="width: 100%;">
+                      <p class="title">Visit Signups</p><p class="number">124</p>
+                  </div>
+                </div>
             </div>
+          </div>
+          <div class="row">
             <div class="col">
               <h6>SLIDER</h6>
+                <div class="time-range">
+                  <div class="range-wrap">
+                    <div class="range-value" id="rangeV"></div>
+                    <input id="range" type="range" min="0" max="240" value="0" step="1"> 
+                  </div>
+                </div>
             </div>
-            <div class="col">
-              <h6>MESSENGER</h6>
-            </div>
-          </div>
-          <div class="row">
             <div class="col">
               <h6>LARGE TABLE WITH SORTING</h6>
+              <div class="table-responsive-sm payout" style="width: 500px;">
+                <table class="table table-hover">
+                  <thead>
+                    <tr>
+                      <th scope="col">Date</th>
+                      <th scope="col">Amount ($)</th>
+                      <th scope="col">Deal</th>
+                      <th scope="col">Account</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">17/08/02 (12:58)</th>
+                      <td>34,425.00</td>
+                      <td>cpl(200)</td>
+                      <td>bank</td>
+                    </tr>
+                    <tr>
+                  </tbody>
+                </table>
+              </div>
             </div>
             <div class="col">
-                <h6>PAGES NAVIGATION</h6>
+              <h6>PAGES NAVIGATION</h6>
+                <div class="pagination"> 
+                <a href="#"><</a>
+                <a class="active" href="#">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+                <a href="#">4</a>
+                <a href="#">5</a>
+                <a href="#">6</a>
+                <a href="#">></a>
+              </div>
             </div>
             <div class="col">
-              <h6>NOTIFICATIONS</h6>
+                <h6>TOP MENU BUTTONS</h6><br>
+                <div class="top-bar">
+                  <p class="top-bar-amount"><i class="fas fa-wallet"></i>$1,500.00</p>
+                  <p class="top-bar-alerts"><i class="fas fa-bell"></i></p>
+                  <svg width="12" height="12">
+                  <circle cx="6" cy="6" r="6" fill="orange">
+            </svg> 
             </div>
-          </div>
-          <div class="row">
-            <div class="col">
-                <h6>TOP MENU BUTTONS</h6>
-            </div>
-            <div class="col">
-              <h6>COLOR TABS</h6>
             </div>
           </div>
         </div>
