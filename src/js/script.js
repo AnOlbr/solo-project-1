@@ -75,27 +75,19 @@ function openModal(modal) {
 }
 
 document.querySelector('.popup').addEventListener('click', function (e) {
-  if (e.target === this) {
-    openModal('#myModalMessage');
-  }
+  openModal('#myModalMessage');
 });
 
 document.querySelector('.quit').addEventListener('click', function (e) {
-  if (e.target === this) {
-    openModal('#myModalQuit');
-  }
+  openModal('#myModalQuit');
 });
 
 document.querySelector('.top-bar-login').addEventListener('click', function (e) {
-  if (e.target === this) {
-    openModal('#myModalLogin');
-  }
+  openModal('#myModalLogin');
 });
 
 document.querySelector('.btn-new-banner').addEventListener('click', function (e) {
-  if (e.target === this) {
-    openModal('#myModalBanner');
-  }
+  openModal('#myModalBanner');
 });
 
 
