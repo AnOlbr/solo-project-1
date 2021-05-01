@@ -1,15 +1,33 @@
-@media (max-width: 768px) {
+@media (max-width: 900px) {
 
-  .sidebar{
-    height: 50px;
-    width: 100%;
-    display: inline-block;
+  .sidebar {
 
-    .menu{
-      display: none;
+    width: 90px;
+
+    h1 i{
+      margin: 0;
     }
-    
+
+    h1{
+      font-size: 0;
+    }
+
+    .menu a{
+      font-size: 0;
+    }
+
+    .messenger{
+
+      h4{
+        font-size: 0;
+      }
+
+      .popup{
+        font-size: 0;
+      }
+    }
   }
+
   .top-bar p{
     font-size: 14px;
   }
@@ -21,4 +39,22 @@
   .date-picker{
     display: block;
   }
+
+  .personal-data .form-data{
+    width: 90%;
+  }
+
+  table{
+    width: 100%;
+    overflow: auto;
+  }
+
+  .link a{
+    font-size: 14px;
+    word-wrap: break-word;
+  }
+
+ .card-container{
+   padding: 0px;
+ }
 }

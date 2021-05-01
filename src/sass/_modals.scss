@@ -178,6 +178,15 @@
   border: 1px solid $border-color;
 }
 
+.ok{
+  position: absolute;
+  top: -5px;
+  left: 2px;
+  color: white;
+  z-index: 3;
+  font-size: 14px;
+}
+
 label {
   input[type="checkbox"] {
     position: absolute;
@@ -192,6 +201,7 @@ label {
       height: 14px;
       border: 1px solid $main-text-color;
       margin-right: 5px;
+      position: relative;
     }
 
     &:checked + .icon {
@@ -204,6 +214,7 @@ label {
 ul {
   list-style-type: none;
 }
+
 
 
 
